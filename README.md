@@ -40,11 +40,10 @@ This experimentation highlights my knack for balancing complexity with performan
 I measured success with two metrics, ensuring a comprehensive assessment:
 
 ✅ FID Score
-
 Computed every 10 epochs using 500 real and 500 generated images.
 Lower FID = closer alignment to real Pokémon in feature space.
-✅ Real-vs-Fake Classifier
 
+✅ Real-vs-Fake Classifier
 A CNN trained to spot fakes. Low accuracy means my generator succeeded in deception.
 This dual-metric approach underscores my commitment to robust evaluation, ensuring models don’t just look good—they perform.
 
